@@ -1,0 +1,45 @@
+body{
+    background-image: url("../img/ciel.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+#ville{
+    margin: 2rem 0 2rem 0;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.271);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    padding: 2rem 0 10rem 0;
+}
+label{
+    color: #4a4065;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#valider{
+    border: none;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 5px;
+    background-color: #bd789b;
+    color: #4a4065;
+    font-weight: 900;
+}
+h2,p{
+text-align: center;
+color: #4a4065;
+}
